@@ -10,7 +10,7 @@ products:
 
 # Direct Routing Configuration
 
-For full instructions on how to build this code sample from scratch, look at [Quickstart: Direct Routing](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/voice-routing-sdk-config?pivots=programming-language-csharp)
+For full instructions to build this code sample from scratch, look at [Direct Routing](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config?pivots=programming-language-csharp)
 
 ## Prerequisites
 
@@ -20,17 +20,18 @@ For full instructions on how to build this code sample from scratch, look at [Qu
 
 ## Code Structure
 
-- **./DirectRouting/Program.cs:** Core application code with manage phone numbers implementation.
-- **./DirectRouting/DirectRouting.csproj:** Project configuration file.
+- `./DirectRouting/Program.cs`: Core application code with manage phone numbers implementation.
+- `./DirectRouting/DirectRouting.csproj`: Project configuration file.
 
 ## Before running sample code
 
-1. Open an instance of PowerShell, Windows Terminal, Command Prompt or equivalent and navigate to the directory that you'd like to clone the sample to.
+1. Open an instance of PowerShell, Windows Terminal, Command Prompt or equivalent and navigate to the directory where you'd like to clone the sample.
 2. `git clone https://github.com/Azure-Samples/Communication-Services-dotnet-quickstarts.git`
-3. With the `Connection String` procured in pre-requisites, add it to the **DirectRouting/program.cs** file. Assign your connection string in line 3:
-  ```csharp
-  var connectionString = "endpoint=https://<RESOURCE_NAME>.communication.azure.com/;accesskey=<ACCESS_KEY>";
-  ```
+3. With the `Connection String` procured in pre-requisites, add it to the `DirectRouting/program.cs` file. Assign your connection string in line 3:
+
+   ```csharp
+   var connectionString = "endpoint=https://<RESOURCE_NAME>.communication.azure.com/;accesskey=<ACCESS_KEY>";
+   ```
 
 ## Run Locally
 

@@ -1,6 +1,6 @@
 # Azure Communication Services .NET SDK
 
-Azure Communication Services enable developers to add communication capabilities to their applications.
+Azure Communication Services enables developers to add communication capabilities to their applications.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ Azure Communication Services enable developers to add communication capabilities
 
 ## Quickstarts
 
-1. [Send SMS](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/send?pivots=programming-language-csharp)
+1. [Send SMS](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony/send?pivots=programming-language-csharp)
 
 2. [Manage Phone Numbers](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony/get-phone-number?pivots=programming-language-csharp)
 
